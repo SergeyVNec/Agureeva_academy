@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="favicon.ico">
+    <title>Ольга Агуреева</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="assets/owl.carousel.min.css">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+        
+            <ul class="menu">
+                <li><a class="menu__item" href="/">Главная</a></li>
+                <li><a class="menu__item" href="services.html">Услуги</a></li>
+                <li><a class="menu__item" href="whoyouare.html">Курс "Кто ты"</a></li>
+                <li><a class="menu__item" href="#">Вебинары</a></li>
+            </ul>
+          </div>
+    </header>
+    <section>
+        <h1 class="who_h1">Вебинары</h1>
+        <div class="veblinks">
+            <div class="veblinksleft">
+                <div class="emotions">
+                    <img src="/img/vebimg1.jpg" alt="">
+                    <div><a href="https://agureeva-education.com/freevideo">Урок 
+                        «Долг. Вина. Проработка 
+                        негативных эмоций»</a></div>
+                </div>
+                <div class="weight">
+                    <img src="/img/vebimg3.jpg" alt="">
+                    <div><a href="https://agureeva-education.com/excess_weight">Видео-лекция 
+                        «Лишний вес. 
+                        Психосоматика»</a></div>
+                </div>
+            </div>
+            <div class="veblinksright">
+                <div class="psiho">
+                    <img src="/img/vebimg2.jpg" alt="">
+                    <div><a href="https://agureeva-education.com/freevebinar">Вебинар 
+                        «Психосоматика 
+                        лишнего веса»</a></div>
+                </div>
+                <div class="dream">
+                    <img src="/img/vebimg4.jpg" alt="">
+                    <div><a href="https://agureeva-education.com/on_the_way">Видео-лекция 
+                        «По пути к мечте»</a>
+                        <p>*Для помогающих специалистов</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2 class="whoareyoukeys">Лекция «Родители и дети»</h2>
+        <div class="owl-carousel owl-theme whoareyoukeys_img">
+            <div><img src="img/parents/imgpar1.jpg" alt=""></div>
+            <div><img src="img/parents/imgpar2.jpg" alt=""></div>
+            <div><img src="img/parents/imgpar3.jpg" alt=""></div>
+            <div><img src="img/parents/imgpar4.jpg" alt=""></div>
+            <div><img src="img/parents/imgpar5.jpg" alt=""></div>
+            <div><img src="img/parents/imgpar6.jpg" alt=""></div>
+            <div><img src="img/parents/imgpar7.jpg" alt=""></div>
+        </div>
+    </section>
+    <section>
+        <h2 class="price">Стоимость – 150 евро</h2>
+        <div class="buybutton">
+            <a href="https://agureeva-education.com/parents_and_children" class="buy">КУПИТЬ</a>
+        </div>    
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="contact">
+                <ul>
+                    <li><a href="https://t.me/agvento1" class="ico_tg">+38 (050) 134 07 07</a></li>
+                    <li><a href="https://instagram.com/agureeva_o" class="ico_inst">@agureeva_o</a></li>
+                    <li><a  href="mailto:agureevaolga.osteo@gmail.com" class="ico_mail">agureevaolga.osteo@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="disclaimer">
+                <p>ФЛП Агуреева Ольга Геннадиевна<br>
+                    ИНН 3146904789</p>
+                <p><a href="doc/agreement.pdf" target="_blank" class="offer">Договор публичной оферты</a></p>
+                <p>Использование в коммерческих целях каких-либо материалов или элементов без письменного 
+                    разрешения собственника сайта запрещено.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- javascript --> 
+    <script>
+        jQuery(document).ready(function($) {
+                $('.whoareyoukeys_img').owlCarousel({
+                    center: true,
+                    nav: true,
+                    items: 1,
+                    loop: true,
+                    responsive: {
+                    600: {
+                        items: 1
+                    }
+                    }
+                });
+                });
+    </script>
+    <script src="../js/owl.carousel.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

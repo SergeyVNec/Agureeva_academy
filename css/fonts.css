@@ -1,0 +1,127 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+Normal&display=swap');
+@import url(//db.onlinewebfonts.com/c/0b9856633d4311a19df074ea509d8390?family=Constantia);
+
+
+
+
+@font-face {
+    font-family: 'Century Gothic Regular';
+    src: url('../fonts/CenturyGothic.eot');
+    src: url('../fonts/CenturyGothic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/CenturyGothic.woff') format('woff'),
+    url('../fonts/CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('../fonts/centurygothic.eot');
+	src: local('Century Gothic'), local('centurygothic'),
+		url('../fonts/centurygothic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/centurygothic.woff') format('woff'),
+		url('../fonts/centurygothic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('../fonts/centurygothic-it.eot');
+	src: local('Century Gothic Italic'), local('centurygothic-it'),
+		url('../fonts/centurygothic-it.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/centurygothic-it.woff') format('woff'),
+		url('../fonts/centurygothic-it.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'CenturyGothic';
+	src: url('../fonts/centurygothic-bold.eot');
+	src: local('Century Gothic Bold'), local('centurygothic-bold'),
+		url('../fonts/centurygothic-bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/centurygothic-bold.woff') format('woff'),
+		url('../fonts/centurygothic-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MonotypeCorsiva';
+	src: url('../fonts/monotypecorsiva.eot');
+	src: local('Monotype Corsiva'), local('monotypecorsiva'),
+		url('../fonts/monotypecorsiva.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/monotypecorsiva.woff') format('woff'),
+		url('../fonts/monotypecorsiva.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGGalleonC';
+	src: url('../fonts/aggalleonc.eot');
+	src: local('AGGalleonC'), local('aggalleonc'),
+		url('../fonts/aggalleonc.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/aggalleonc.woff') format('woff'),
+		url('../fonts/aggalleonc.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AGGalleonC';
+	src: url('../fonts/aggalleonc-bold.eot');
+	src: local('AGGalleonC Bold'), local('aggalleonc-bold'),
+		url('../fonts/aggalleonc-bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/aggalleonc-bold.woff') format('woff'),
+		url('../fonts/aggalleonc-bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'AnastasiaScript';
+	src: url('../fonts/anastasiascript.eot');
+	src: local('Anastasia Script'), local('anastasiascript'),
+		url('../fonts/anastasiascript.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/anastasiascript.woff') format('woff'),
+		url('../fonts/anastasiascript.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/myriadpro.eot');
+	src: local('Myriad Pro'), local('myriadpro'),
+		url('../fonts/myriadpro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/myriadpro.woff') format('woff'),
+		url('../fonts/myriadpro.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/myriadpro-it.eot');
+	src: local('Myriad Pro Italic'), local('myriadpro-it'),
+		url('../fonts/myriadpro-it.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/myriadpro-it.woff') format('woff'),
+		url('../fonts/myriadpro-it.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'MyriadProBold';
+	src: url('../fonts/MyriadPro-Bold.eot');
+	src: local('Myriad Pro Bold'), local('myriadpro-bold'),
+		url('../fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Bold.woff') format('woff'),
+		url('../fonts/MyriadPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Berlin Sans FB Demi Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Berlin Sans FB Demi Bold'),
+		url('../fonts/BRLNSDB.ttf') format('truetype'),
+		url('../fonts/BRLNSDB.woff') format('woff');
+    }
