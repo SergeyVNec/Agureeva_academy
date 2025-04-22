@@ -1584,7 +1584,39 @@ footer {
 
 
 /*----------------------------GROUPS-------------------------------------*/
+.temp_info {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}    
+.temp_h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    color: #484a4b;
+    margin-bottom: 43px;
+    margin-top: 80px;
+    text-align: center;
+}
+.temp_p {
+    font-family: "Constantia";
+    font-size: 25px;
+    color: #50321f;
+    max-width: 450px;
+    margin: 0 auto;
+}
+.temp_h2 {
+    font-family: "Constantia";
+    font-size: 25px;
+    color: #50321f;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.temp_bot {
+    margin-bottom: 100px;
+}
 
+/*----------------------------------------------*/
 .who_h1_gr {
     font-family: 'Playfair Display', serif;
     font-size: 60px;
